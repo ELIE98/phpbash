@@ -1,4 +1,7 @@
-# phpbash
+# phpbash_OZ
+
+Don't re-invent the wheel, Just re-align It.
+
 phpbash is a standalone, semi-interactive web shell. It's main purpose is to assist in penetration tests where traditional reverse shells are not possible. The design is based on the default Kali Linux terminal colors, so pentesters should feel right at home.
 
 ## Requirements
@@ -11,8 +14,6 @@ Javascript must be enabled on the client browser for phpbash to work properly. T
 - Command history with arrow keys
 - Upload files directly to target directory
 
-Have a feature idea? Open an [Issue](https://github.com/Arrexel/phpbash/issues).
-
 ## Custom Commands
 - `cd` Return to default shell directory
 - `cd <path>` Change directory
@@ -21,7 +22,7 @@ Have a feature idea? Open an [Issue](https://github.com/Arrexel/phpbash/issues).
 - `upload` Opens the file browser and uploads selected file
 
 ## Usage
-Simply drop the `phpbash.php` or `phpbash.min.php` file on the target and access it with any Javascript-enabled web browser.
+>_ php -S localhost:9999
 
 ## Screenshots
 ![phpbash](https://image.prntscr.com/image/q1hExH9ARMOUd4S8oz2pew.png)
